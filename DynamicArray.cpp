@@ -28,7 +28,7 @@ class ARRAY
             *(ar+i)=*(AR+i);
 
         *AR=*ar;
-        delete ar;
+       // delete ar;
 
     }
 
