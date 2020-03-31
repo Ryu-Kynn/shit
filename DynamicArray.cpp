@@ -1,10 +1,15 @@
-
-
 class ARRAY
 {
-   	int OverflowCounter= 1 ;
-    int ElementCounter= 0;
+	public:
+		
+	int OverflowCounter ;
+    int ElementCounter ;
     int* AR;
+    
+    ARRAY() : OverflowCounter(1), ElementCounter(0)
+    {
+        AR= create(1);
+    }
 
 
     int* create(int OverflowCounter)
@@ -14,12 +19,6 @@ class ARRAY
         delete ar;
     }
 
-
-
-    ARRAY
-    {
-        AR= create(1);
-    }
 
     void overflow()
     {
@@ -32,7 +31,8 @@ class ARRAY
         delete ar;
 
     }
-public:
+
+
     void Insert(int value)
     {
         if ( ElementCounter <= OverflowCounter * 10 )
