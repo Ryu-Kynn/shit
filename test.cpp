@@ -4,7 +4,10 @@ int main()
 {
     std::cout<<"hi"<<std::endl;
 
-	DynamicArray a;
+	ARRAY a;
+	a.Insert(10);
+	
+	std::cout<<*(a.AR+1);//////////////////
 	 
 	a.Insert(10);
 
