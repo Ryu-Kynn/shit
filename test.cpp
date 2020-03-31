@@ -7,8 +7,8 @@ int main()
 
 	ARRAY a;
 		
-	a.Insert(10);
-	a.Insert(10);
+		a.Insert(10);
+		a.Insert(10);
 		a.Insert(10);
 		a.Insert(10);
 		a.Insert(10);
@@ -16,14 +16,23 @@ int main()
 		a.Insert(6);
 		a.Insert(10);
 		a.Insert(10);
-		a.Insert(10);
-		a.Insert(10);
-		a.Insert(10);
-		a.Insert(10);
-	
-	for(int i=0 ; i<=a.ElementCounter ; i++)
+	//	a.Insert(10);
+	//	a.Insert(10);
+	//	a.Insert(10);
+	//	a.Insert(1);
 		
-	std::cout<<*(a.AR+i);
+		std::cout<<"1"<<std::endl;
+	
+	for(int i=0 ; i<9 ; i++)
+	
+	std::cout<<"\n"<<*(a.AR+i);
+	
+	std::cout<<"2"<<std::endl;
+	std::cout<<a.OverflowCounter;
+	
+	std::cout<<"3"<<std::endl;
+	std::cout<<a.ElementCounter;
+	
 	
 	
     return 0;
