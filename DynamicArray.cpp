@@ -26,6 +26,7 @@ class ARRAY
 
         for (int i=0 ; i<=ElementCounter ; i++)
             *(ar+i)=*(AR+i);
+	    //hello motherfucker //invites are accepted on email.
 
         *AR=*ar;
        // delete ar;
